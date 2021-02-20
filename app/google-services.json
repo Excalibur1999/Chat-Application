@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "556864278291",
+    "firebase_url": "https://chatapplication-886ef.firebaseio.com",
+    "project_id": "chatapplication-886ef",
+    "storage_bucket": "chatapplication-886ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556864278291:android:743c077c83b8c04021d4e6",
+        "android_client_info": {
+          "package_name": "com.hrishi.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556864278291-m777cq034jn178aft0ghrd7u1b01ekpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq7w-KmT52M-OrNPRBHdZ49oT_8ejJG3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556864278291-m777cq034jn178aft0ghrd7u1b01ekpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateAccountActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        app:cardBackgroundColor="@android:color/holo_green_light"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        app:cardCornerRadius="13dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/icon"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingStart="50dp"
+                android:text="Create Account"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="50dp"
+                android:paddingEnd="10dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/displayNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter Display Name"
+                    android:textColorHint="#fff"
+                    android:backgroundTint="#fff"
+                    android:backgroundTintMode="add"/>
+                <EditText
+                    android:id="@+id/createMailId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter Email"
+                    android:textColorHint="#fff"
+                    android:backgroundTint="#fff"
+                    android:backgroundTintMode="add"/>
+                <EditText
+                    android:id="@+id/createPassId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Enter Password"
+                    android:textColorHint="#fff"
+                    android:backgroundTint="#fff"
+                    android:backgroundTintMode="add"/>
+
+                <Button
+                    android:id="@+id/createAccBtnIdE"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Create Account"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

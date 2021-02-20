@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StatusChangeActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingEnd="30dp"
+                android:paddingStart="50dp">
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="84dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:text="Enter your Status..."
+                    android:textColor="@color/white"
+                    android:textSize="29sp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:ems="10"
+                    android:id="@+id/editStatusIdE"
+                    android:backgroundTintMode="add"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:hint="Enter Your Status..."
+                    android:textColorHint="@color/white"/>
+                
+                
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/statusSaveBtnId"
+                    android:text="@string/StatusChangeBtn"/>
+            </RelativeLayout>
+        </LinearLayout>
+            
+        
+        
+    </androidx.cardview.widget.CardView>
+
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
